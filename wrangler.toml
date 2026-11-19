@@ -1,0 +1,12 @@
+name = "plist-server"
+main = "src/index.js"
+compatibility_date = "2026-11-19"
+workers_dev = true
+
+# Optional: bind a custom domain after the domain is added to Cloudflare.
+# [[routes]]
+# pattern = "plist.example.com/*"
+# zone_name = "example.com"
+
+[observability]
+enabled = true

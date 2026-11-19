@@ -1,0 +1,16 @@
+{
+  "name": "plist-server-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker / Pages port of nekohaxx/plistserver: generates iOS OTA plist manifests with a built-in UI.",
+  "license": "GPL-3.0-only",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}
